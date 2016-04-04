@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Foundation for Community Leadership</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+<link rel="shortcut icon" href="images/favicon.ico" />
+
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  
+  <!-- Custom CSS Files -->
+  <link rel="stylesheet" href="stylesheets/style.css">
+  
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+
+<div class="row">
+
+	<div class="four columns centered">
+    	<img src="images/fcl-logo.png" alt="FCL Header">
+    </div>
+</div>
+<div class="row">
+ <div class="twelve columns centered">
+    	<ul class="breadcrumbs">
+  			<li class="current"><a href="index.html">home</a></li>
+  			<li><a href="about/index.html">about</a></li>
+  			<li><a href="gallery/index.html">gallery</a></li>
+  			<li><a href="contact/index.html">contact</a></li>
+  			<li><a class="tiny round alert button" href="donate/index.html">Donate</a></li>
+		</ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="twelve columns centered">
+      
+	<div id="featured">
+		<img data-caption="#captionOne" src="images/slider-signing.jpg" alt="British High Commission">
+        <img data-caption="#captionTwo" src="images/slider-group.jpg" alt="Group Photo">
+        <img data-caption="#captionThree" src="images/slider-kitchen.jpg" alt="Kitchen Time">
+        <img data-caption="#captionFour" src="images/slider-baking.jpg" alt="Cake Making">
+      </div>
+
+    </div>
+</div>
+
+<span class="orbit-caption" id="captionOne">Valerie Tate - Bilateral Project Officer for the British High Commission , Hyacinth Beverley McLean Founder-The Foundation for Community Leadership and ,Deputy High Commissioner, Julia Sutherland signing the contract marking the official start of the project</span>
+<span class="orbit-caption" id="captionTwo">Foundation For Community Leadership Restoring hope and vision to the community</span>
+<span class="orbit-caption" id="captionThree">Foundation For Community Leadership increasing productivity in the community</span>
+<span class="orbit-caption" id="captionFour">Foundation For Community Leadership helping to build self-worth, self-esteem, confidence and the future</span>
+
+<div class="row">
+  <div class="twelve columns centered">
+    <div class="panel callout radius">
+      <h5>Our Mission</h5>
+      <p>To facilitate the human and social capital through the provision of support to the most vulnerable segment in the society, reduction of inequality and improved access to opportunities.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+	<div class="twelve columns">
+		Registered in Jamaica, Office 4 Half Way Tree Road, Kingston 5: No 80758 TRN 001- 852- 269
+Mailing Address: PO Box 5121, Kingston 6, Jamaica W.I.
+	</div>
+</div>
+
+<!-- Included JS Files (Compressed) -->
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+
+  
+
+  <script>
+    $(window).load(function(){
+      $("#featured").orbit({fluid: '16x8', advanceSpeed:10000});
+    });
+    </script> 
+  
+</body>
+</html>

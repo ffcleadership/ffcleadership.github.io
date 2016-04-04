@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Donate to the Foundation for Community Leadership</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="../stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="../stylesheets/app.css">
+
+  <script src="../javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+
+<div class="row">
+
+	<div class="four columns centered">
+    	<img src="../images/fcl-logo.png" alt="FCL Logo">
+    </div>
+</div>
+<div class="row">
+ <div class="twelve columns centered">
+    	<ul class="breadcrumbs">
+  			<li><a href="../index.html">home</a></li>
+  			<li><a href="../about/index.html">about</a></li>
+  			<li><a href="../gallery/index.html">gallery</a></li>
+  			<li><a href="../contact/index.html">contact</a></li>
+  			<li><a class="tiny round alert button" href="index.html">Donate</a></li>
+		</ul>
+    </div>
+</div>
+
+
+<div class="row">
+  <div class="twelve columns">
+    <div id="wufoo-z7x3p3">
+Fill out my <a href="http://ffcl.wufoo.com/forms/z7x3p3">online form</a>.
+</div>
+<script type="text/javascript">var z7x3p3;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'ffcl', 
+'formHash':'z7x3p3', 
+'autoResize':true,
+'height':'437',
+'async':true,
+'header':'show'};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z7x3p3 = new WufooForm();z7x3p3.initialize(options);z7x3p3.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+  </div>
+</div>
+
+<!-- Included JS Files (Compressed) -->
+  <script src="../javascripts/jquery.js"></script>
+  <script src="../javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="../javascripts/app.js"></script>
+
+  
+
+  <script>
+    $(window).load(function(){
+      $("#featured").orbit({fluid: '16x6', advanceSpeed:10000});
+    });
+    </script> 
+  
+</body>
+</html>
